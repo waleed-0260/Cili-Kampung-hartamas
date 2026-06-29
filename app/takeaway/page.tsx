@@ -64,7 +64,7 @@ export default function TakeawayPage() {
               <SectionHeading
                 label="Order Online"
                 title="Available on Delivery Platforms"
-                subtitle="Find us on Malaysia's leading food delivery apps. Search \"Cili Kampung\" and select your nearest outlet."
+                subtitle={`Find us on Malaysia's leading food delivery apps. Search "Cili Kampung" and select your nearest outlet.`}
                 centered
                 className="mb-12"
               />
