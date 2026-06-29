@@ -43,3 +43,13 @@ export interface Pillar {
   description: string
   iconName: 'Leaf' | 'Heart' | 'ShieldCheck' | 'Sprout'
 }
+
+export interface CartItem {
+  id: string
+  name: string
+  price: string
+  priceValue: number
+  category: MenuCategory
+  quantity: number
+  isSignature?: boolean
+}
